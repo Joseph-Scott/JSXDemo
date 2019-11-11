@@ -1,7 +1,10 @@
 class JSXDemo extends React.component {
   render(){
     return (
-      <img src="https://images.unsplash.com/photo-1565252503738-0d47de5d50e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+      <div>
+        <h1>My Image!</h1>
+        <img src="https://s.yimg.com/ny/api/res/1.2/hGbF5fZXXz3fZqXUFqwPhA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media.zenfs.com/en/good_housekeeping_561/f7805168db9601f2436ded62d7b55656" />
+      </div>
     )
   }
 }
